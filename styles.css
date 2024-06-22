@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 20px;
+    padding: 0 180px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: auto;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    padding: 80px 180px;
+    gap: 50px;
+}
+
+.hero-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8; 
+}
+
+.hero-sec {
+    font-size: 18px;
+    color: #e5e7eb;
+    flex: 1;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 120px;
+    border-width: 0;
+}
+
+
+.random {
+    padding: 80px 180px;
+}
+.random h1 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    border: 4px solid;
+    border-radius: 20px;
+    border-color: #3882f6;
+}
+
+.card-text {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    padding: 80px 180px;
+}
+
+.quote-by {
+    text-align: end;
+}
+
+.action {
+    background-color: #3882f6;
+    padding: 40px 180px;
+    color: #f9faf8;
+    display: flex;
+    width: 1000px;
+    margin: 100px auto;
+    border-radius: 10px;
+    gap: 100px;
+}
+
+.action .main {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.action .subtext {
+    font-size: 18px;
+}
+.action button {
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid;
+    font-size: 18px;
+    width: 180px;
+}
+
+.action .text {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    color: #e5e7eb;
+    font-size: 24px;
+    background-color: #1f2937;
+    padding: 40px 180px;
+    text-align: center;
+}
